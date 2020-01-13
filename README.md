@@ -15,23 +15,25 @@ Make sure your project is using the latest [UI5 Tooling](https://sap.github.io/u
 ### Install
 
 #### Custom project shim
-Add the custom project shim as `devDependency` to your project.
+Add the custom project shim and its peer dependencies as `dependencies` to your project.
 
 With `yarn`:
 ```sh
-yarn add -D ui5-shim-babel-polyfill
+yarn add ui5-shim-babel-polyfill core-js-bundle regenerator-runtime
 ```
 Or `npm`:
 ```sh
-npm i -D ui5-shim-babel-polyfill
+npm i ui5-shim-babel-polyfill core-js-bundle regenerator-runtime
 ```
 
-Additionally the custom project shim needs to be manually defined as a _ui5 dependency_ in your project's `package.json`:
+Additionally the custom project shim its peer dependencies need to be manually defined as a _ui5.dependencies_ in your project's `package.json`:
 ```json
 {
   "ui5": {
     "dependencies": [
-      "ui5-shim-babel-polyfill"
+      "ui5-shim-babel-polyfill",
+      "core-js-bundle",
+      "regenerator-runtime"
     ]
   }
 }
