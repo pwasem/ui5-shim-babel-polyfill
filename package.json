@@ -2,7 +2,7 @@
   "name": "ui5-shim-babel-polyfill",
   "description": "Custom UI5 project shim extension for babel polyfill dependencies",
   "version": "1.0.0",
-  "repository": "https://github.com/pwasem/ui5-middleware-babel",
+  "repository": "https://github.com/pwasem/ui5-shim-babel-polyfill",
   "author": "pwasem <pascal.wasem@googlemail.com>",
   "license": "MIT",
   "private": false,
