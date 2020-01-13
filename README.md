@@ -3,7 +3,7 @@ Custom UI5 project shim extension for babel polyfill dependencies.
 
 As of Babel 7.4.0, [@babel/polyfill](https://babeljs.io/docs/en/babel-polyfill) has been deprecated in favor of directly including [core-js/stable](https://github.com/zloirock/core-js) (to polyfill ECMAScript features) and [regenerator-runtime/runtime](https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime) (needed to use transpiled generator functions).
 
-Using this project shim both dependencies can be easily consumed in your ui5 applications.
+Using this project shim both dependencies can be easily consumed in your ui5 application.
 
 This is especially useful when using [ui5-task-babel](https://github.com/pwasem/ui5-task-babel) or [ui5-middleware-babel](https://github.com/pwasem/ui5-middleware-babel).
 
