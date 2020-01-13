@@ -5,7 +5,7 @@ As of Babel 7.4.0, [@babel/polyfill](https://babeljs.io/docs/en/babel-polyfill) 
 
 Using this project shim both dependencies can be easily consumed in your ui5 applications.
 
-This is especially useful when using [ui5-task-babel](https://github.com/pwasem/ui5-task-babel) or [ui5-middleware-babel](https://github.com/pwasem/ui5-middleware-babel)
+This is especially useful when using [ui5-task-babel](https://github.com/pwasem/ui5-task-babel) or [ui5-middleware-babel](https://github.com/pwasem/ui5-middleware-babel).
 
 ## Prerequisites
 Make sure your project is using the latest [UI5 Tooling](https://sap.github.io/ui5-tooling/pages/GettingStarted/).
@@ -14,7 +14,7 @@ Make sure your project is using the latest [UI5 Tooling](https://sap.github.io/u
 
 ### Install
 
-#### Custom middleware
+#### Custom project shim
 Add the custom project shim as `devDependency` to your project.
 
 With `yarn`:
