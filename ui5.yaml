@@ -1,0 +1,25 @@
+specVersion: "1.0"
+kind: extension
+type: project-shim
+metadata:
+  name: ui5-shim-babel-polyfill
+shims:
+  configurations:
+    core-js-bundle: # name as defined in package.json
+      specVersion: "1.0"
+      type: module # Use module type
+      metadata:
+        name: core-js-bundle
+      resources:
+        configuration:
+          paths:
+            /resources/core-js-bundle/: "" # map root directory of module
+    regenerator-runtime: # name as defined in package.json
+      specVersion: "1.0"
+      type: module # Use module type
+      metadata:
+        name: regenerator-runtime
+      resources:
+        configuration:
+          paths:
+            /resources/regenerator-runtime/: "" # map root directory of module
