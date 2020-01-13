@@ -26,7 +26,7 @@ Or `npm`:
 npm i ui5-shim-babel-polyfill core-js-bundle regenerator-runtime
 ```
 
-Additionally the custom project shim its peer dependencies need to be manually defined as a _ui5.dependencies_ in your project's `package.json`:
+Additionally the custom project shim its peer dependencies need to be manually defined in `ui5.dependencies` in your project's `package.json`:
 ```json
 {
   "ui5": {
@@ -42,7 +42,7 @@ Additionally the custom project shim its peer dependencies need to be manually d
 ### Usage
 Register [core-js/stable](https://github.com/zloirock/core-js) and [regenerator-runtime/runtime](https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime) as resources your projects `manifest.json`.
 
-This will ensure both depenedencies will be included once in your app and all required polyfills will be available for your transpiled code.
+This will ensure both dependencies will be included once in your app and all required polyfills will be available for your transpiled code.
 ```json
 {
   "sap.ui5": {
